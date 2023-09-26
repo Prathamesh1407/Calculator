@@ -25,7 +25,7 @@ export default function Form({ result, setResult }) {
             setResult("Error")
         }
     }
-    // Comment
+
     return (
         <div className={styles.container}>
             <form onSubmit={handleSubmit}>
